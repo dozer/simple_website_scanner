@@ -1,3 +1,6 @@
+//Takes a website url as an argument and returns information
+//about the host.
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>

@@ -1,1 +1,20 @@
-TEST
+The simple_website_scanner is just that...a simple website scanner.
+You provide it the hostname of a website (www.cnn.com) for example, and it
+will return the following:
+	- IP address
+	- Address type (IPv4/IPv6)
+	- Address length
+	- Alternate IP addresses
+	- Alternate hostnames (aliases)
+	- Webserver
+It will only display information it can retrieve. Therefore, if there are no
+aliases, it will ignore this section entirely in the output.
+
+**Notes:
+1.) The webserver portion does not work properly on every website. The way I
+	retrieve this information isn't exactly ideal. Help would be appreciat	      ed.
+2.) There is a buffer overflow vulnerability in the hacking-network.h file. I
+	did not write this file and haven't had time to write my own.
+
+If you have any questions/comments/want to contribute please e-mail me at
+oodabaga@gmail.com.
